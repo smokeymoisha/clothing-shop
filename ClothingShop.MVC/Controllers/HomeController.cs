@@ -10,18 +10,6 @@ namespace ClothingShop.MVC.Controllers
     {
         public IActionResult Index()
         {
-            //Message myDelegate = () => Console.WriteLine("Hello World");
-
-            //myDelegate += () => Console.WriteLine("Goodbye World");
-
-            //Func<string> myFunc = () => "I return a string.";
-
-            //Action<int> myAction = num => Console.WriteLine(num);
-
-            //myAction(5);
-
-            Predicate<int> myPredicate = intNum => intNum > 5;
-
             return View();
         }
     }
